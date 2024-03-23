@@ -1,0 +1,157 @@
+body{
+    background-color: #dddddd;
+    font-family: serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+.logo{
+    width: 20%;
+}
+
+.logoFooter{
+    width: 20%;
+}
+/*Header*/
+nav > img{
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+
+/*Navigation*/
+nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    border-width: 5px;
+    border-style:solid;
+    border-color: black;
+    padding: .5rem;
+    justify-content: space-around;
+    
+}
+nav li{
+    display:inline-block;
+    font-weight: bold;
+    
+}
+
+
+.nav:link {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+  }
+  .nav:hover {
+    color: rgb(233, 177, 177);
+}
+/*Main*/
+
+section{
+    display: flex;
+    
+}
+h1 + p{
+    font-size: 18px;
+}
+article{
+
+    flex: 1;
+    margin: .8rem;
+    background-color: rgb(255, 255, 255);
+    padding: 0rem 1rem 1rem 1rem ;
+    border-radius: 1rem;
+    text-align: center;    
+    border-width: 5px;
+    border-style:solid;
+    border-color: black;
+}
+
+
+.col {
+    flex: 1;
+    padding: 16px;
+  }
+
+#ring{
+    width: 69.5%;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+}
+#necklace{
+    width: 59%;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+}
+#bracelet{
+    width: 85.5%;
+    display: block;
+    margin: 0 auto 80px auto;
+    border-radius: 1rem;
+}
+
+article h1{
+   text-align: center;
+}
+article h2>h1{
+    font-size: 2.5rem;
+ }
+
+.links{
+    color: inherit;
+    text-decoration: none;
+ }
+ .links:hover{
+    color: rgb(233, 177, 177);
+ }
+ 
+
+/*footer*/
+footer{
+    display: flex;
+    width: 100%
+}
+footer div{
+    flex: 1;
+}
+
+.Copyright{
+    margin-left: 57%;
+
+}
+
+.logoFooter{
+    width: 70%;
+    margin-left: 8%;
+    margin-top: 15px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+@media screen and (max-width: 450px) {
+    col{
+      text-align: center;
+      float: none;
+    }
+  }
